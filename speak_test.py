@@ -1,8 +1,7 @@
-import speech_recognition
+
 import time
 import os
 import speech_recognition as sr
-# %%
 
 r = sr.Recognizer()
 text = ''
@@ -15,5 +14,5 @@ while (text != 'close'):
             print('You said : {0}'.format(text))
 
         except:
-            print('sorry')
+            print('sorry I don\'t understand.')
             break
